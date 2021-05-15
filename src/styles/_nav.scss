@@ -1,0 +1,16 @@
+.nav-container {
+  min-height: 10vh;
+  background: lightgray;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+  line-height: 2;
+  list-style-type: none;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,14 @@
+.instructions-container {
+  background: lightpink;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 3em;
+}
+h1 {
+  padding: 3rem 1rem 1rem 1rem;
+}

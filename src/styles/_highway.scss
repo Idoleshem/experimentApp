@@ -1,0 +1,215 @@
+$row: 22%;
+$column: 35%;
+$stepRow: 8.2%;
+$stepColumn: 7.5%;
+//height: 60vh;
+//width: 140vh;
+.highway-container {
+  height: 60vh;
+  width: 140vh;
+  //left: 100px;
+  //@at-root: 100px;
+  background: lightgreen;
+  //position: relative;
+  flex-direction: row;
+  align-items: flex;
+}
+
+#road1 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: 8%;
+}
+#road2 {
+  position: fixed;
+  left: $row + $stepRow;
+  top: $column;
+  width: 8%;
+}
+#road3 {
+  position: fixed;
+  left: $row + $stepRow * 2;
+  top: $column;
+  width: 8%;
+}
+#road4 {
+  position: fixed;
+  left: $row + $stepRow * 3;
+  top: $column;
+  width: 8%;
+}
+#road5 {
+  position: fixed;
+  left: $row + $stepRow * 4;
+  top: $column;
+  width: 8%;
+}
+#road6 {
+  position: fixed;
+  left: $row + $stepRow * 5;
+  top: $column;
+  width: 8%;
+}
+#road7 {
+  position: fixed;
+  left: $row + $stepRow * 6;
+  top: $column;
+  width: 8%;
+}
+
+#road8 {
+  position: fixed;
+  left: $row + $stepRow * 0;
+  top: $column + $stepColumn;
+  width: 8%;
+}
+#road9 {
+  position: fixed;
+  left: $row + $stepRow * 1;
+  top: $column + $stepColumn;
+  width: 8%;
+}
+#road10 {
+  position: fixed;
+  left: $row + $stepRow * 2;
+  top: $column + $stepColumn;
+  width: 8%;
+}
+#road11 {
+  position: fixed;
+  left: $row + $stepRow * 3;
+  top: $column + $stepColumn;
+  width: 8%;
+}
+#road12 {
+  position: fixed;
+  left: $row + $stepRow * 4;
+  top: $column + $stepColumn;
+  width: 8%;
+}
+#road13 {
+  position: fixed;
+  left: $row + $stepRow * 5;
+  top: $column + $stepColumn;
+  width: 8%;
+}
+#road14 {
+  position: fixed;
+  left: $row + $stepRow * 6;
+  top: $column + $stepColumn;
+  width: 8%;
+}
+
+#road15 {
+  position: fixed;
+  left: $row + $stepRow * 0;
+  top: $column + $stepColumn * 2;
+  width: 8%;
+}
+#road16 {
+  position: fixed;
+  left: $row + $stepRow * 1;
+  top: $column + $stepColumn * 2;
+  width: 8%;
+}
+#road17 {
+  position: fixed;
+  left: $row + $stepRow * 2;
+  top: $column + $stepColumn * 2;
+  width: 8%;
+}
+#road18 {
+  position: fixed;
+  left: $row + $stepRow * 3;
+  top: $column + $stepColumn * 2;
+  width: 8%;
+}
+#road19 {
+  position: fixed;
+  left: $row + $stepRow * 4;
+  top: $column + $stepColumn * 2;
+  width: 8%;
+}
+#road20 {
+  position: fixed;
+  left: $row + $stepRow * 5;
+  top: $column + $stepColumn * 2;
+  width: 8%;
+}
+#road21 {
+  position: fixed;
+  left: $row + $stepRow * 6;
+  top: $column + $stepColumn * 2;
+  width: 8%;
+}
+#car1 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: 8%;
+}
+#car2 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: 8%;
+}
+#car3 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: 8%;
+}
+#car4 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: 8%;
+}
+.tree {
+  img {
+    position: fixed;
+    left: $row;
+    top: $column - $stepColumn * 2;
+    width: 6%;
+  }
+}
+.highway {
+  img {
+    width: 11%;
+    position: absolute;
+    padding: 0.05rem;
+    overflow: hidden;
+    align-items: flex;
+    flex-direction: row;
+  }
+}
+
+//  .car {
+//    img {
+//     width: 10%;
+//   }
+//  }
+
+/*.buttonSimulation {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+    padding: 0.05rem 1rem;
+
+    //position: flex;
+  }
+  */
+
+.progressButtons {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 40%;
+  background: white;
+  margin: auto;
+}
