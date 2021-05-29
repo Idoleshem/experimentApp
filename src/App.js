@@ -32,7 +32,7 @@ function App() {
         <Route path="/Demographic" component={Demographic} />
 
         <Route
-          path="/Tutorial"
+          path="/Demonstration"
           render={(props) => (
             <Tutorial
               {...props}
@@ -43,7 +43,7 @@ function App() {
           )}
         />
         <Route
-          path="/Simulation"
+          path="/Scenario 1"
           render={(props) => (
             <SimulationWindow
               {...props}

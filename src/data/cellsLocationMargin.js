@@ -1,7 +1,7 @@
-const length = 8.2; //160
-const height = 7.5 * 3; //76
+const length = 4.2; //160
+const height = 11; //76
 const rows = 2;
-const columns = 7;
+const columns = 22;
 
 var screenWidth = window.screen.width;
 console.log(screenWidth);

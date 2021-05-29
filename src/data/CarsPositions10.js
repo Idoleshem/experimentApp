@@ -2,47 +2,47 @@ import CellsLocation from "./CellsLocation";
 const carsCells = [
   {
     carId: 0,
-    start: 22,
-    end: 45,
+    start: 38,
+    end: 40,
   },
   {
     carId: 1,
-    start: 25,
-    end: 27,
+    start: 43,
+    end: 43,
   },
   {
     carId: 2,
-    start: 3,
-    end: 5,
+    start: 21,
+    end: 21,
   },
   {
     carId: 3,
-    start: 31,
-    end: 33,
+    start: 43,
+    end: 43,
   },
   {
     carId: 4,
-    start: 37,
-    end: 39,
+    start: 43,
+    end: 43,
   },
   {
     carId: 5,
-    start: 50,
-    end: 50,
+    start: 54,
+    end: 55,
   },
   {
     carId: 6,
-    start: 56,
-    end: 56,
+    start: 60,
+    end: 61,
   },
   {
     carId: 7,
-    start: 61,
-    end: 61,
+    start: 65,
+    end: 65,
   },
 ];
 
-const CarsPositions1 = [
+const CarsPositions10 = [
   {
     carId: "car0",
     name: 0,
@@ -56,7 +56,11 @@ const CarsPositions1 = [
         x: CellsLocation[carsCells[0].end].x,
         y: CellsLocation[carsCells[0].end].y,
         opacity: 1,
-        transition: { duration: 2, ease: "linear", delay: 0.4 },
+        transition: {
+          duration: 2,
+          ease: "linear",
+          delay: 0.4,
+        },
       },
     },
   },
@@ -74,7 +78,7 @@ const CarsPositions1 = [
         x: CellsLocation[carsCells[1].end].x,
         y: CellsLocation[carsCells[1].end].y,
 
-        opacity: 1,
+        opacity: 0,
         transition: { duration: 2, ease: "linear", delay: 0.4 },
       },
     },
@@ -91,7 +95,7 @@ const CarsPositions1 = [
       show: {
         x: CellsLocation[carsCells[2].end].x,
         y: CellsLocation[carsCells[2].end].y,
-        opacity: 1,
+        opacity: 0,
         transition: { duration: 2, ease: "linear", delay: 0.4 },
       },
     },
@@ -110,7 +114,7 @@ const CarsPositions1 = [
         x: CellsLocation[carsCells[3].end].x,
         y: CellsLocation[carsCells[3].end].y,
 
-        opacity: 1,
+        opacity: 0,
         transition: { duration: 2, ease: "linear", delay: 0.4 },
       },
     },
@@ -127,7 +131,7 @@ const CarsPositions1 = [
       show: {
         x: CellsLocation[carsCells[4].end].x,
         y: CellsLocation[carsCells[4].end].y,
-        opacity: 1,
+        opacity: 0,
         transition: { duration: 2, ease: "linear", delay: 0.4 },
       },
     },
@@ -182,11 +186,11 @@ const CarsPositions1 = [
         x: CellsLocation[carsCells[7].end].x,
         y: CellsLocation[carsCells[7].end].y,
 
-        opacity: 1,
+        opacity: 0,
         transition: { duration: 2, ease: "linear", delay: 0.4 },
       },
     },
   },
 ];
 
-export default CarsPositions1;
+export default CarsPositions10;

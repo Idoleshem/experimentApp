@@ -1,9 +1,9 @@
 import React from "react";
 
-const AI = () => {
+const AI = ({ decision }) => {
   return (
     <div className="AI-container">
-      <h1>the AI's decision is 3</h1>
+      <h1>the AI's decision is: {decision}</h1>
     </div>
   );
 };

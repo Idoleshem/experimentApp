@@ -1,11 +1,18 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import calculateState from "../../Functions/calculateState";
 
-const Actions = () => {
-  const actionHandler = (actionNum) => {};
+const Actions = ({ currentDecision, setCurrentDecision }) => {
+  /*const actionHandler = (actionNum) => {
+    setCurrentDecision(actionNum);
+    console.log("current decision", currentDecision);
+    setCurrentState(calculateState(currentState, currentDecision));
+  };
+  */
 
   return (
     <div className="actions-control">
+      <ActionButton coloredButton={true} />
       <Button
         variant="Action 1"
         className="button"

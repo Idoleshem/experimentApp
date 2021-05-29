@@ -2,19 +2,24 @@ import CellsLocationMargin from "./cellsLocationMargin";
 const treesCells = [
   {
     treeId: 1,
-    start: 0,
-    end: 0,
+    start: 4,
+    end: 4,
   },
   {
-    carId: 2,
-    start: 7,
-    end: 7,
+    treeId: 2,
+    start: 30,
+    end: 30,
+  },
+  {
+    treeId: 3,
+    start: 18,
+    end: 18,
   },
 ];
 
 const TreesPositions0 = [
   {
-    carId: "tree",
+    treeId: "tree",
     name: 0,
     treeAnim: {
       hidden: {
@@ -32,7 +37,7 @@ const TreesPositions0 = [
   },
 
   {
-    carId: "tree",
+    treeId: "tree",
     name: 1,
     treeAnim: {
       hidden: {
@@ -43,6 +48,24 @@ const TreesPositions0 = [
       show: {
         x: CellsLocationMargin[treesCells[1].end].x,
         y: CellsLocationMargin[treesCells[1].end].y,
+
+        opacity: 1,
+        transition: { duration: 2, ease: "linear", delay: 0.4 },
+      },
+    },
+  },
+  {
+    treeId: "tree",
+    name: 1,
+    treeAnim: {
+      hidden: {
+        x: CellsLocationMargin[treesCells[2].start].x,
+        y: CellsLocationMargin[treesCells[2].start].y,
+        opacity: 0,
+      },
+      show: {
+        x: CellsLocationMargin[treesCells[2].end].x,
+        y: CellsLocationMargin[treesCells[2].end].y,
 
         opacity: 1,
         transition: { duration: 2, ease: "linear", delay: 0.4 },

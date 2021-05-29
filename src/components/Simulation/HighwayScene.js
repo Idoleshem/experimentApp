@@ -4,18 +4,32 @@ import CarList from "../Cars/CarList";
 import TreeList from "../Trees/TreeList";
 import AllPositions from "../../data/AllPositions";
 import AllTrees from "../../data/AllTrees";
-
+const AI_decision = [
+  "Right lane",
+  "Increase",
+  "Increase",
+  "left",
+  "Right",
+  "Decrease",
+  "Decrease",
+  "Increase",
+  "Left lane",
+  "Increase",
+  "Increase",
+];
 const HighwayScene = () => {
   const nextHandler = (direction) => {
     if (direction === "Next") {
       setCurrentPosition(
         Math.min(AllPositions.length - 1, currentPosition + 1),
       );
+
       console.log(currentPosition);
       //instructions[Math.min(currentInstruction.id + 1, 1)],
     }
     if (direction === "Back") {
       setCurrentPosition(Math.max(0, currentPosition - 1));
+
       console.log(currentPosition);
       //instructions[Math.max(currentInstruction.id - 1, 0)],
     }
@@ -31,6 +45,8 @@ const HighwayScene = () => {
 
   return (
     <div className="simulation">
+      <h2>Trial number: {currentPosition} </h2>
+
       <div className="highway-container">
         <Highway />
 
@@ -50,7 +66,9 @@ const HighwayScene = () => {
         <button className="button" onClick={() => nextHandler("Next")}>
           Next
         </button>
-        <b>Trial number: {currentPosition}</b>
+
+        <b> The AI's decision: {AI_decision[currentPosition]} </b>
+        <br />
       </div>
     </div>
   );

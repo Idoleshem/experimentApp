@@ -1,12 +1,14 @@
-$row: 22%;
+$row: 2%;
 $column: 35%;
-$stepRow: 8.2%;
-$stepColumn: 7.5%;
+$stepRow: 4.3%;
+$stepColumn: 4.2%;
+$widthRoad: 4.3%;
+
 //height: 60vh;
 //width: 140vh;
 .highway-container {
-  height: 60vh;
-  width: 140vh;
+  height: 50vh;
+  width: 200vh;
   //left: 100px;
   //@at-root: 100px;
   background: lightgreen;
@@ -15,164 +17,506 @@ $stepColumn: 7.5%;
   align-items: flex;
 }
 
+#road0 {
+  position: fixed;
+  left: $row + $stepRow * 0;
+  top: $column;
+  width: $widthRoad;
+}
+
 #road1 {
   position: fixed;
-  left: $row;
+  left: $row + $stepRow * 1;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
 }
+
 #road2 {
-  position: fixed;
-  left: $row + $stepRow;
-  top: $column;
-  width: 8%;
-}
-#road3 {
   position: fixed;
   left: $row + $stepRow * 2;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
 }
-#road4 {
+
+#road3 {
   position: fixed;
   left: $row + $stepRow * 3;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
 }
-#road5 {
+#road4 {
   position: fixed;
   left: $row + $stepRow * 4;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
 }
-#road6 {
+#road5 {
   position: fixed;
   left: $row + $stepRow * 5;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
 }
-#road7 {
+#road6 {
   position: fixed;
   left: $row + $stepRow * 6;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
+}
+#road7 {
+  position: fixed;
+  left: $row + $stepRow * 7;
+  top: $column;
+  width: $widthRoad;
 }
 
 #road8 {
   position: fixed;
-  left: $row + $stepRow * 0;
-  top: $column + $stepColumn;
-  width: 8%;
+  left: $row + $stepRow * 8;
+  top: $column;
+  width: $widthRoad;
 }
+
 #road9 {
   position: fixed;
-  left: $row + $stepRow * 1;
-  top: $column + $stepColumn;
-  width: 8%;
+  left: $row + $stepRow * 9;
+  top: $column;
+  width: $widthRoad;
 }
+
 #road10 {
   position: fixed;
-  left: $row + $stepRow * 2;
-  top: $column + $stepColumn;
-  width: 8%;
+  left: $row + $stepRow * 10;
+  top: $column;
+  width: $widthRoad;
 }
+
 #road11 {
   position: fixed;
-  left: $row + $stepRow * 3;
-  top: $column + $stepColumn;
-  width: 8%;
+  left: $row + $stepRow * 11;
+  top: $column;
+  width: $widthRoad;
 }
+
 #road12 {
   position: fixed;
-  left: $row + $stepRow * 4;
-  top: $column + $stepColumn;
-  width: 8%;
+  left: $row + $stepRow * 12;
+  top: $column;
+  width: $widthRoad;
 }
+
 #road13 {
   position: fixed;
-  left: $row + $stepRow * 5;
-  top: $column + $stepColumn;
-  width: 8%;
+  left: $row + $stepRow * 13;
+  top: $column;
+  width: $widthRoad;
 }
+
 #road14 {
   position: fixed;
-  left: $row + $stepRow * 6;
-  top: $column + $stepColumn;
-  width: 8%;
+  left: $row + $stepRow * 14;
+  top: $column;
+  width: $widthRoad;
 }
 
 #road15 {
   position: fixed;
+  left: $row + $stepRow * 15;
+  top: $column;
+  width: $widthRoad;
+}
+
+#road16 {
+  position: fixed;
+  left: $row + $stepRow * 16;
+  top: $column;
+  width: $widthRoad;
+}
+
+#road17 {
+  position: fixed;
+  left: $row + $stepRow * 17;
+  top: $column;
+  width: $widthRoad;
+}
+
+#road18 {
+  position: fixed;
+  left: $row + $stepRow * 18;
+  top: $column;
+  width: $widthRoad;
+}
+
+#road19 {
+  position: fixed;
+  left: $row + $stepRow * 19;
+  top: $column;
+  width: $widthRoad;
+}
+
+#road20 {
+  position: fixed;
+  left: $row + $stepRow * 20;
+  top: $column;
+  width: $widthRoad;
+}
+
+#road21 {
+  position: fixed;
+  left: $row + $stepRow * 21;
+  top: $column;
+  width: $widthRoad;
+}
+
+#road100 {
+  position: fixed;
+  left: $row + $stepRow * 0;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road101 {
+  position: fixed;
+  left: $row + $stepRow * 1;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road102 {
+  position: fixed;
+  left: $row + $stepRow * 2;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road103 {
+  position: fixed;
+  left: $row + $stepRow * 3;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road104 {
+  position: fixed;
+  left: $row + $stepRow * 4;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road105 {
+  position: fixed;
+  left: $row + $stepRow * 5;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road106 {
+  position: fixed;
+  left: $row + $stepRow * 6;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road107 {
+  position: fixed;
+  left: $row + $stepRow * 7;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road108 {
+  position: fixed;
+  left: $row + $stepRow * 8;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road109 {
+  position: fixed;
+  left: $row + $stepRow * 9;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road110 {
+  position: fixed;
+  left: $row + $stepRow * 10;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road111 {
+  position: fixed;
+  left: $row + $stepRow * 11;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road112 {
+  position: fixed;
+  left: $row + $stepRow * 12;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road113 {
+  position: fixed;
+  left: $row + $stepRow * 13;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road114 {
+  position: fixed;
+  left: $row + $stepRow * 14;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road115 {
+  position: fixed;
+  left: $row + $stepRow * 15;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road116 {
+  position: fixed;
+  left: $row + $stepRow * 16;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road117 {
+  position: fixed;
+  left: $row + $stepRow * 17;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road118 {
+  position: fixed;
+  left: $row + $stepRow * 18;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road119 {
+  position: fixed;
+  left: $row + $stepRow * 19;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+#road120 {
+  position: fixed;
+  left: $row + $stepRow * 20;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road121 {
+  position: fixed;
+  left: $row + $stepRow * 21;
+  top: $column + $stepColumn;
+  width: $widthRoad;
+}
+
+#road200 {
+  position: fixed;
   left: $row + $stepRow * 0;
   top: $column + $stepColumn * 2;
-  width: 8%;
+  width: $widthRoad;
 }
-#road16 {
+#road201 {
   position: fixed;
   left: $row + $stepRow * 1;
   top: $column + $stepColumn * 2;
-  width: 8%;
+  width: $widthRoad;
 }
-#road17 {
+#road202 {
   position: fixed;
   left: $row + $stepRow * 2;
   top: $column + $stepColumn * 2;
-  width: 8%;
+  width: $widthRoad;
 }
-#road18 {
+#road203 {
   position: fixed;
   left: $row + $stepRow * 3;
   top: $column + $stepColumn * 2;
-  width: 8%;
+  width: $widthRoad;
 }
-#road19 {
+#road204 {
   position: fixed;
   left: $row + $stepRow * 4;
   top: $column + $stepColumn * 2;
-  width: 8%;
+  width: $widthRoad;
 }
-#road20 {
+#road205 {
   position: fixed;
   left: $row + $stepRow * 5;
   top: $column + $stepColumn * 2;
-  width: 8%;
+  width: $widthRoad;
 }
-#road21 {
+#road206 {
   position: fixed;
   left: $row + $stepRow * 6;
   top: $column + $stepColumn * 2;
-  width: 8%;
+  width: $widthRoad;
+}
+
+#road207 {
+  position: fixed;
+  left: $row + $stepRow * 7;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road208 {
+  position: fixed;
+  left: $row + $stepRow * 8;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road209 {
+  position: fixed;
+  left: $row + $stepRow * 9;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road210 {
+  position: fixed;
+  left: $row + $stepRow * 10;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road211 {
+  position: fixed;
+  left: $row + $stepRow * 11;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road212 {
+  position: fixed;
+  left: $row + $stepRow * 12;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road213 {
+  position: fixed;
+  left: $row + $stepRow * 13;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road214 {
+  position: fixed;
+  left: $row + $stepRow * 14;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+#road215 {
+  position: fixed;
+  left: $row + $stepRow * 15;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road216 {
+  position: fixed;
+  left: $row + $stepRow * 16;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road217 {
+  position: fixed;
+  left: $row + $stepRow * 17;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road218 {
+  position: fixed;
+  left: $row + $stepRow * 18;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road219 {
+  position: fixed;
+  left: $row + $stepRow * 19;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+
+#road220 {
+  position: fixed;
+  left: $row + $stepRow * 20;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+#road221 {
+  position: fixed;
+  left: $row + $stepRow * 21;
+  top: $column + $stepColumn * 2;
+  width: $widthRoad;
+}
+#car0 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: $widthRoad;
 }
 #car1 {
   position: fixed;
   left: $row;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
 }
 #car2 {
   position: fixed;
   left: $row;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
 }
 #car3 {
   position: fixed;
   left: $row;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
 }
 #car4 {
   position: fixed;
   left: $row;
   top: $column;
-  width: 8%;
+  width: $widthRoad;
 }
+
+#car5 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: $widthRoad;
+}
+#car6 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: $widthRoad;
+}
+#car7 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: $widthRoad;
+}
+#car8 {
+  position: fixed;
+  left: $row;
+  top: $column;
+  width: $widthRoad;
+}
+
 .tree {
   img {
     position: fixed;
     left: $row;
     top: $column - $stepColumn * 2;
-    width: 6%;
+    width: 4%;
   }
 }
 .highway {
@@ -185,23 +529,6 @@ $stepColumn: 7.5%;
     flex-direction: row;
   }
 }
-
-//  .car {
-//    img {
-//     width: 10%;
-//   }
-//  }
-
-/*.buttonSimulation {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-
-    padding: 0.05rem 1rem;
-
-    //position: flex;
-  }
-  */
 
 .progressButtons {
   display: flex;

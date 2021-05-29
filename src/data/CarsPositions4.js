@@ -2,47 +2,47 @@ import CellsLocation from "./CellsLocation";
 const carsCells = [
   {
     carId: 0,
-    start: 22,
-    end: 45,
+    start: 50,
+    end: 31,
   },
   {
     carId: 1,
-    start: 25,
-    end: 27,
-  },
-  {
-    carId: 2,
-    start: 3,
-    end: 5,
-  },
-  {
-    carId: 3,
     start: 31,
     end: 33,
   },
   {
-    carId: 4,
+    carId: 2,
+    start: 9,
+    end: 11,
+  },
+  {
+    carId: 3,
     start: 37,
     end: 39,
   },
   {
+    carId: 4,
+    start: 43,
+    end: 43,
+  },
+  {
     carId: 5,
-    start: 50,
-    end: 50,
+    start: 51,
+    end: 52,
   },
   {
     carId: 6,
-    start: 56,
-    end: 56,
+    start: 57,
+    end: 58,
   },
   {
     carId: 7,
-    start: 61,
-    end: 61,
+    start: 62,
+    end: 63,
   },
 ];
 
-const CarsPositions1 = [
+const CarsPositions4 = [
   {
     carId: "car0",
     name: 0,
@@ -56,7 +56,11 @@ const CarsPositions1 = [
         x: CellsLocation[carsCells[0].end].x,
         y: CellsLocation[carsCells[0].end].y,
         opacity: 1,
-        transition: { duration: 2, ease: "linear", delay: 0.4 },
+        transition: {
+          duration: 2,
+          ease: "linear",
+          delay: 0.4,
+        },
       },
     },
   },
@@ -127,7 +131,7 @@ const CarsPositions1 = [
       show: {
         x: CellsLocation[carsCells[4].end].x,
         y: CellsLocation[carsCells[4].end].y,
-        opacity: 1,
+        opacity: 0,
         transition: { duration: 2, ease: "linear", delay: 0.4 },
       },
     },
@@ -189,4 +193,4 @@ const CarsPositions1 = [
   },
 ];
 
-export default CarsPositions1;
+export default CarsPositions4;

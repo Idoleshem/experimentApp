@@ -8,14 +8,14 @@ const Nav = () => {
         <Link to="/Login">Login</Link>
       </li>
       <li>
-        <Link to="/Demographic">Demographic</Link>
+        <Link to="/Demographic">Demographic Questionnaire</Link>
       </li>
       <li>
-        <Link to="/Tutorial">Toturial</Link>
+        <Link to="/Demonstration">Demonstration</Link>
       </li>
 
       <li>
-        <Link to="/Simulation">Simulation</Link>
+        <Link to="/Scenario 1">Scenario 1</Link>
       </li>
     </nav>
   );
