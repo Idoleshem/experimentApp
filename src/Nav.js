@@ -17,6 +17,13 @@ const Nav = () => {
       <li>
         <Link to="/Scenario 1">Scenario 1</Link>
       </li>
+
+      <li>
+        <Link to="/Scenario 2">Scenario 2</Link>
+      </li>
+      <li>
+        <Link to="/Evaluation">Evaluation</Link>
+      </li>
     </nav>
   );
 };

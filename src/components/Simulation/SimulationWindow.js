@@ -11,7 +11,7 @@ import HighwayScene from "./HighwayScene";
 const SimulationWindow = () => {
   return (
     <div className="simulation-container">
-      <h1>Simulation Window</h1>
+      <h1>Simulation Window 1</h1>
 
       <HighwayScene />
 

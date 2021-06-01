@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 // Import styles
 import "./styles/app.scss";
-import scenario from "./data/scenario";
+import scenario from "./scenario1Data/scenario";
 import Nav from "./Nav";
 import Login from "./components/Login";
-//import LoginNew from "./components/LoginNew";
-import Tutorial from "./components/Tutorial/Tutorial";
-import instructionsData2 from "./data/instructionsData2";
+
+import DemonstrationWindow from "./components/Demonstration/DemonstrationWindow";
+import instructionsData2 from "./scenario1Data/instructionsData2";
 import Demographic from "./components/Demographic";
 import SimulationWindow from "./components/Simulation/SimulationWindow";
+import SimulationWindow2 from "./components/Simulation/SimulationWindowS2";
+import EvaluationWindow from "./components/Evaluation/EvaluationWindow";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const name = "participant 1";
@@ -34,11 +36,9 @@ function App() {
         <Route
           path="/Demonstration"
           render={(props) => (
-            <Tutorial
+            <DemonstrationWindow
               {...props}
-              currentInstruction={currentInstruction}
-              setcurrentInstruction={setcurrentInstruction}
-              instructions={instructions}
+              currentDecisionPoint={currentDecisionPoint}
             />
           )}
         />
@@ -46,6 +46,24 @@ function App() {
           path="/Scenario 1"
           render={(props) => (
             <SimulationWindow
+              {...props}
+              currentDecisionPoint={currentDecisionPoint}
+            />
+          )}
+        />
+        <Route
+          path="/Scenario 2"
+          render={(props) => (
+            <SimulationWindow2
+              {...props}
+              currentDecisionPoint={currentDecisionPoint}
+            />
+          )}
+        />
+        <Route
+          path="/Evaluation"
+          render={(props) => (
+            <EvaluationWindow
               {...props}
               currentDecisionPoint={currentDecisionPoint}
             />

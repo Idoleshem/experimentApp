@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Highway from "../Highway/highway";
 import CarList from "../Cars/CarList";
 import TreeList from "../Trees/TreeList";
-import AllPositions from "../../data/AllPositions";
-import AllTrees from "../../data/AllTrees";
+import AllPositions from "../../scenario1Data/AllPositions";
+import AllTrees from "../../scenario1Data/AllTrees";
 const AI_decision = [
   "Right lane",
   "Increase",
@@ -38,7 +38,7 @@ const HighwayScene = () => {
     return AllPositions[currentPosition];
   };
   const TreesPositionsAccordingToLevel = (currentPosition) => {
-    return AllTrees[currentPosition];
+    return AllTrees[0];
   };
 
   const [currentPosition, setCurrentPosition] = useState(0);
