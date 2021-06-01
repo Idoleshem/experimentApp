@@ -25,7 +25,6 @@ const AllPositions = [
   CarsPositions9,
   CarsPositions10,
   CarsPositions11,
-  CarsPositions12,
 ];
 
 export default AllPositions;

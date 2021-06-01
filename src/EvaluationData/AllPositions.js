@@ -16,8 +16,6 @@ import CarsPositions14 from "./CarsPositions14e";
 import CarsPositions15 from "./CarsPositions15e";
 import CarsPositions16 from "./CarsPositions16e";
 import CarsPositions17 from "./CarsPositions17e";
-import CarsPositions18 from "./CarsPositions18e";
-import CarsPositions19 from "./CarsPositions19e";
 
 const AllPositions = [
   CarsPositions0,
@@ -38,8 +36,6 @@ const AllPositions = [
   CarsPositions15,
   CarsPositions16,
   CarsPositions17,
-  CarsPositions18,
-  CarsPositions19,
 ];
 
 export default AllPositions;
